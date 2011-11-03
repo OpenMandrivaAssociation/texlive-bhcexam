@@ -1,3 +1,9 @@
+# revision 23304
+# category Package
+# catalog-ctan /macros/latex/contrib/bhcexam
+# catalog-date 2011-07-31 15:37:23 +0200
+# catalog-license lppl
+# catalog-version 0.2
 Name:		texlive-bhcexam
 Version:	0.2
 Release:	1
@@ -48,6 +54,7 @@ specially designed for High School Math Teachers in China.
 #- source
 %doc %{_texmfdistdir}/source/latex/bhcexam/BHCexam.dtx
 %doc %{_texmfdistdir}/source/latex/bhcexam/BHCexam.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ specially designed for High School Math Teachers in China.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

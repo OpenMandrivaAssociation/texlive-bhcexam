@@ -54,3 +54,18 @@ specially designed for High School Math Teachers in China.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
++ Revision: 749600
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
++ Revision: 717914
+- texlive-bhcexam
+- texlive-bhcexam
+- texlive-bhcexam
+- texlive-bhcexam
+- texlive-bhcexam
+

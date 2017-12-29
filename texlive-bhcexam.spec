@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 0.2
 Name:		texlive-bhcexam
-Version:	0.2
-Release:	11
+Version:	0.4
+Release:	1
 Summary:	A LaTeX document class designed for High School Math Teachers in China
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bhcexam

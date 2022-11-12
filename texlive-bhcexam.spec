@@ -5,8 +5,8 @@ Summary:	A LaTeX document class designed for High School Math Teachers in China
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bhcexam
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bhcexam.r64093.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bhcexam.doc.r64093.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bhcexam.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bhcexam.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg

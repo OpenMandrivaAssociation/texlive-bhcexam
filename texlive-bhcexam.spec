@@ -1,6 +1,6 @@
 Name:		texlive-bhcexam
 Version:	64093
-Release:	1
+Release:	2
 Summary:	A LaTeX document class designed for High School Math Teachers in China
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bhcexam

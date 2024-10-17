@@ -3,7 +3,7 @@ Version:	64093
 Release:	2
 Summary:	A LaTeX document class designed for High School Math Teachers in China
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bhcexam
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/bhcexam
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bhcexam.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bhcexam.doc.r%{version}.tar.xz
